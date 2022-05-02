@@ -1,2 +1,2 @@
 # basecamp-javascript
-Estudos sobre JS.
+ Estudos sobre JS
