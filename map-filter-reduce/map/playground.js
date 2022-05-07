@@ -23,7 +23,7 @@ const laranja = {
 
 function mapComthis(arr, thisArg) {
   return arr.map(function(item){
-  item * this.value;
+  return item * this.value;
   }, thisArg);
 };
 
@@ -33,4 +33,4 @@ console.log(mapComThis(nums, maçã);
 
 console.log('this -> maçã', mapComthis(nums, maçã));
 
-console.log('this -> laranja', mapComthis(nums, maçã));
+console.log('this -> laranja', mapComthis(nums, maçã)); */
